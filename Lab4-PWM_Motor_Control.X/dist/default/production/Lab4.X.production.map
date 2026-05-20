@@ -1,0 +1,42 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Mar 30 20:11:57 2026
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000005    program   0x0000a4
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000005    0x000056      
+                            0x002007    0x002007      
+            86 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+         Apply_Duty_Cycle   0x000040    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+                Main_Loop   0x00002e    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+           Setup_Hardware   0x000005    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+             Wait_For_ADC   0x000031    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           Setup_Hardware   0x000005    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+                Main_Loop   0x00002e    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+             Wait_For_ADC   0x000031    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+         Apply_Duty_Cycle   0x000040    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+
+

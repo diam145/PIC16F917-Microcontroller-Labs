@@ -1,0 +1,50 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Mar 30 20:12:06 2026
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000005    program   0x0000a4
+                   .cinit    romdata   0x001800    program   0x000004
+                    dbgP0       code   0x001f00    program   0x0001fe
+.config_2007_BUILD/DEFAULT/DEBUG/MAIN.O       code   0x002007    program   0x000002
+                    dbgD0      udata   0x000070       data   0x000001
+                    dbgD1      udata   0x0000f0       data   0x000001
+                    dbgD2      udata   0x000165       data   0x00000b
+                    dbgD3      udata   0x000170       data   0x000001
+                    dbgD4      udata   0x0001f0       data   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000005    0x000056      
+                            0x001800    0x001801      
+                            0x001f00    0x001ffe      
+                            0x002007    0x002007      
+            341 out of 8454 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+         Apply_Duty_Cycle   0x000040    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+                Main_Loop   0x00002e    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+           Setup_Hardware   0x000005    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+             Wait_For_ADC   0x000031    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           Setup_Hardware   0x000005    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+                Main_Loop   0x00002e    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+             Wait_For_ADC   0x000031    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+         Apply_Duty_Cycle   0x000040    program     static D:\workspace\UOTTAWA\____W26\ELG4159\Labs\Lab4.X\main.asm
+
+
